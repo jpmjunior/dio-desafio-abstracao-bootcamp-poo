@@ -1,6 +1,7 @@
 package br.com.dio.desafio.dominio;
 
 public class Curso extends Conteudo {
+    
     private int cargaHorarira;
     
     @Override
@@ -11,11 +12,14 @@ public class Curso extends Conteudo {
     public int getCargaHorarira() {
         return cargaHorarira;
     }
+    
     public void setCargaHorarira(int cargaHorarira) {
         this.cargaHorarira = cargaHorarira;
     }
+
     @Override
     public String toString() {
         return "Curso [titulo=" + getTitulo() + ", descricao=" + getDescricao() + ", cargaHorarira=" + cargaHorarira + "]";
     }
+
 }
